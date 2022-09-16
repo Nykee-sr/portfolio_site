@@ -91,6 +91,7 @@ body {
 #contact p {
   margin-top: 0.75em;
   color: rgb(203, 201, 201);
+  font-size: 110%;
 }
 #contact h2 {
   margin-bottom: 1em;
