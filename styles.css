@@ -1,0 +1,271 @@
+a {
+  font-weight: 600;
+  font-size: 120%;
+  color: rgb(95, 218, 171);
+}
+a:hover {
+  /* color: rgb(139, 138, 136); */
+  color: rgb(255, 255, 255);
+}
+a:link {
+  color: rgb(95, 218, 171);
+}
+#arrow {
+  position: absolute;
+  bottom: 5px;
+  padding-left: 44%;
+}
+#arrow button {
+  border: none;
+  background-color: transparent;
+}
+#arrow a p {
+  font-weight: 200;
+  font-size: 145%;
+}
+#arrow a p:hover {
+  color: rgb(95, 218, 171);
+}
+.arrow {
+  border: solid;
+  border-color: rgb(95, 218, 171);
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+#bio {
+  /* margin: 2em 2em -7em 2em; */
+  margin: 2em;
+  text-align: center;
+}
+#bio h2 {
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1em;
+}
+#bio h5 {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.bio-div {
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-left-width: 0.5em;
+  border-color: rgb(95, 218, 171);
+  /* background-color: rgb(87, 1, 1); */
+  background-color: transparent;
+  padding: 0.7em;
+  color: rgb(177, 174, 174);
+  margin-bottom: 1em;
+
+  font-size: 100%;
+  text-align: left;
+}
+body {
+  /* background-color: rgb(104, 1, 1); */
+  background-color: rgb(5, 28, 48);
+  color: rgb(255, 255, 255);
+  border: solid;
+  border-color: rgb(95, 218, 171);
+  font-family: Microsoft Sans Serif;
+}
+.bold {
+  font-weight: 700;
+}
+@media (min-width: 768apx) {
+  .center {
+    text-align: center;
+  }
+}
+#contact {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  color: rgb(255, 255, 255);
+}
+
+#contact b {
+  color: rgb(95, 218, 171);
+}
+#contact p {
+  margin-top: 0.75em;
+  color: rgb(203, 201, 201);
+}
+#contact h2 {
+  margin-bottom: 1em;
+}
+#contact-info {
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* .fadeIn {
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.25s all;
+  }
+  .fadeIn:hover {
+    opacity: 1;
+  } */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 992px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+
+.float-right {
+  float: right;
+}
+#header {
+  text-align: center;
+  top: 33%;
+  position: relative;
+  color: rgb(95, 218, 171);
+}
+#header h1 {
+  color: rgb(50, 249, 172);
+  font-weight: 500;
+}
+#header h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+#header h4 {
+  font-weight: 100;
+  color: rgb(139, 138, 136);
+  font-size: 170%;
+}
+#header b {
+  /* color: black; */
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .left {
+    text-align: left;
+  }
+}
+.link {
+}
+#links {
+  margin-left: 3em;
+  margin-right: 3em;
+  font-weight: 500;
+}
+@media (min-width: 576px) {
+  #links {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
+@media (min-width: 768px) {
+  #links {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}
+@media (min-width: 992px) {
+  #links {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+}
+@media (min-width: 1200px) {
+  #links {
+    margin-left: 14em;
+    margin-right: 14em;
+  }
+}
+li::marker {
+  color: rgb(7, 163, 103);
+  content: '-  ';
+}
+.location {
+  font-weight: 600;
+}
+#nav {
+  color: rgb(7, 163, 103);
+  margin-bottom: 3em;
+  margin-right: 0%;
+}
+.nav-btn {
+  color: rgb(95, 218, 171);
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 225%;
+}
+#opener {
+  height: 100vh;
+  position: relative;
+}
+#projects {
+  margin: 2em;
+  position: relative;
+  text-align: center;
+}
+#projects a {
+  text-decoration: none;
+  font-weight: 200;
+}
+#projects h4 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+#projects p {
+  color: rgb(139, 138, 136);
+  text-align: left;
+}
+.project-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-div {
+  background-color: rgb(6, 43, 75);
+  padding: 0.5em 1em 0em 1em;
+  margin-bottom: 1em;
+  border: transparent;
+  border-radius: 4px;
+  width: 80%;
+  height: 90%;
+}
+@media (max-width: 576px) {
+  .project-div {
+    width: 50%;
+  }
+}
+.project-title {
+  font-weight: 600;
+  margin-bottom: 1.2em;
+}
+@media (min-width: 768px) {
+  .right {
+    text-align: right;
+  }
+}
+.scroll-to {
+  margin-top: 100%;
+  padding-bottom: 25%;
+}
+.title-small {
+  color: rgb(255, 255, 255);
+  font-weight: 333;
+}
