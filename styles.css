@@ -13,7 +13,17 @@ a:link {
 #arrow {
   position: absolute;
   bottom: 5px;
-  padding-left: 47%;
+  padding-left: 46%;
+}
+@media (min-width: 576px) {
+  #arrow {
+    padding-left: 47%;
+  }
+}
+@media (min-width: 768px) {
+  #arrow {
+    padding-left: 48%;
+  }
 }
 @media (min-width: 992px) {
   #arrow {
