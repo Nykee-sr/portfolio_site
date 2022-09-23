@@ -255,7 +255,8 @@ p {
   font-family: Helvetica;
 }
 #projects p {
-  color: rgb(139, 138, 136);
+  /* color: rgb(139, 138, 136); */
+  color: rgb(255, 255, 255);
   text-align: left;
 }
 .project-btn {
