@@ -277,8 +277,10 @@ p {
 }
 @media (max-width: 576px) {
   .project-div {
+    position: relative;
+
     width: 100%;
-    height: 85%;
+    height: 90%;
     padding: 0em 0.25em 0em 0.25em;
   }
 }
