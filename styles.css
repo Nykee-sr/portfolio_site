@@ -278,19 +278,12 @@ p {
 @media (max-width: 576px) {
   .project-div {
     position: relative;
-
     width: 100%;
     height: 90%;
     padding: 0em 0.25em 0em 0.25em;
   }
 }
-.project-title {
-  margin-bottom: 1.2em;
-  font-family: Helvetica;
-  font-weight: 500;
-  font-size: 180%;
-  text-align: center;
-}
+
 @media (min-width: 768px) {
   .right {
     text-align: right;
@@ -299,6 +292,13 @@ p {
 .scroll-to {
   margin-top: 100%;
   padding-bottom: 25%;
+}
+.titles {
+  margin-bottom: 1.2em;
+  font-family: Helvetica;
+  font-weight: 500;
+  font-size: 180%;
+  text-align: center;
 }
 .title-small {
   color: rgb(255, 255, 255);
