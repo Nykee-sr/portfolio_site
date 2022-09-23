@@ -252,7 +252,7 @@ li::marker {
 #projects h4 {
   color: rgb(255, 255, 255);
   text-align: left;
-  font-family: Geneva;
+  font-family: Helvetica;
 }
 #projects p {
   color: rgb(139, 138, 136);
@@ -279,7 +279,7 @@ li::marker {
 }
 .project-title {
   margin-bottom: 1.2em;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Helvetica;
   font-weight: 500;
   font-size: 180%;
   text-align: center;
