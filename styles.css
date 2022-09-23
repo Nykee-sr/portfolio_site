@@ -277,7 +277,7 @@ p {
 }
 @media (max-width: 576px) {
   .project-div {
-    width: 50%;
+    width: 90%;
   }
 }
 .project-title {
