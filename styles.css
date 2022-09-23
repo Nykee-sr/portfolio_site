@@ -253,6 +253,7 @@ p {
   color: rgb(95, 218, 171);
   text-align: left;
   font-family: Helvetica;
+  font-size: 125%;
 }
 #projects p {
   /* color: rgb(139, 138, 136); */
