@@ -149,6 +149,7 @@ body {
 .float-right {
   float: right;
 }
+
 #header {
   text-align: center;
   top: 33%;
@@ -236,9 +237,9 @@ li::marker {
   height: 100vh;
   position: relative;
 }
-p {
+/* p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 #projects {
   margin: 2em;
   position: relative;
@@ -276,8 +277,11 @@ p {
   }
 }
 .project-title {
-  font-weight: 600;
   margin-bottom: 1.2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: 200%;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .right {

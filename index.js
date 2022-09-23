@@ -1,4 +1,4 @@
-function myLink(e) {
+/* function myLink(e) {
   window.location.href = '#bio';
 
   e.preventDefault();
@@ -19,3 +19,4 @@ const projects = () => {
     );
   };
 };
+ */
