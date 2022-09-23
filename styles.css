@@ -237,9 +237,9 @@ li::marker {
   height: 100vh;
   position: relative;
 }
-/* p {
+p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-} */
+}
 #projects {
   margin: 2em;
   position: relative;
