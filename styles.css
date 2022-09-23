@@ -211,6 +211,9 @@ body {
     margin-right: 14em;
   }
 }
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 li::marker {
   color: rgb(7, 163, 103);
   content: '-  ';
@@ -232,6 +235,9 @@ li::marker {
 #opener {
   height: 100vh;
   position: relative;
+}
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #projects {
   margin: 2em;
