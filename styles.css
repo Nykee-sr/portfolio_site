@@ -48,7 +48,6 @@ a:link {
   display: inline-block;
   padding: 10px;
 }
-
 #bio {
   /* margin: 2em 2em -7em 2em; */
   margin: 2em;
@@ -86,6 +85,16 @@ body {
   border-color: rgb(95, 218, 171);
   font-family: Microsoft Sans Serif;
 }
+@media (min-width: 768px) {
+  body {
+    font-size: 110%;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 125%;
+  }
+}
 .bold {
   font-weight: 700;
 }
@@ -94,10 +103,14 @@ body {
     text-align: center;
   }
 }
+#bottom-flex {
+  display: flex;
+}
 #contact {
   margin-top: 4em;
   margin-bottom: 2em;
   color: rgb(255, 255, 255);
+  flex: 50%;
 }
 
 #contact b {
@@ -152,7 +165,7 @@ body {
 
 #header {
   text-align: center;
-  top: 33%;
+  top: 43%;
   position: relative;
   color: rgb(95, 218, 171);
   font-family: Helvetica;
@@ -182,6 +195,45 @@ body {
   }
 }
 .link {
+}
+#links-lg {
+  flex: 50%;
+  flex-direction: row;
+}
+@media (max-width: 576px) {
+  #links-lg {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #links-lg {
+    /*  flex-direction: column; */
+    margin-top: 4em;
+  }
+}
+@media (min-width: 992px) {
+  #links-lg {
+    flex-direction: row;
+    margin-top: 4em;
+  }
+}
+.link-item-lg {
+  margin-bottom: 2.5em;
+  margin-left: 3em;
+}
+#links-sm {
+  display: flex;
+  flex-direction: row;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+@media (min-width: 576px) {
+  #links-sm {
+    display: none;
+  }
+}
+.link-item {
+  flex: 30%;
 }
 #links {
   margin-left: 3em;
