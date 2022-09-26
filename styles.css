@@ -123,6 +123,10 @@ body {
 }
 #contact h2 {
   margin-bottom: 1em;
+
+  font-family: Helvetica;
+  font-weight: 500;
+  font-size: 180%;
 }
 #contact-info {
 }
