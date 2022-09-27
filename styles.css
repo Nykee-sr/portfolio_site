@@ -328,7 +328,7 @@ p {
   margin-bottom: 1em;
   border: transparent;
   border-radius: 4px;
-  width: 80%;
+  width: 40%;
   height: 90%;
 }
 @media (max-width: 576px) {
