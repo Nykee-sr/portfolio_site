@@ -20,7 +20,17 @@ const projects = () => {
   };
 };
  */
+function openPopup() {
+  document.getElementById('boxPopup').style.display = 'block';
+}
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus');
-});
+function closePopup() {
+  document.getElementById('boxPopup').style.display = 'none';
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+  var modal = document.getElementById('boxPopup');
+  if (event.target == modal) {
+    closePopup();
+  }
+};

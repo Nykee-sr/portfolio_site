@@ -13,30 +13,6 @@ a:hover {
 a:link {
   color: rgb(95, 218, 171);
 }
-#arrow {
-  position: absolute;
-  bottom: 5px;
-  padding-left: 44%;
-}
-#arrow button {
-  border: none;
-  background-color: transparent;
-}
-#arrow a p {
-  font-weight: 200;
-  font-size: 145%;
-}
-#arrow a p:hover {
-  color: rgb(95, 218, 171);
-}
-.arrow {
-  border: solid;
-  border-color: rgb(95, 218, 171);
-  border-width: 0 4px 4px 0;
-  display: inline-block;
-  padding: 10px;
-}
-
 #bio {
   /* margin: 2em 2em -7em 2em; */
   margin: 2em;
@@ -225,25 +201,27 @@ li::marker {
 .nav-btn {
   margin-left: 1em;
 }
-.nav-btn a {
+.nav-btn button {
   margin-top: 1em;
   margin-bottom: 1em;
   color: rgb(95, 218, 171);
   font-size: 115%;
   font-weight: 300;
+  background-color: transparent;
+  border: none;
 }
 @media (min-width: 576px) {
-  .nav-btn a {
+  .nav-btn button {
     font-size: 120%;
   }
 }
 @media (min-width: 768px) {
-  .nav-btn a {
+  .nav-btn button {
     font-size: 140%;
   }
 }
 @media (min-width: 992px) {
-  .nav-btn a {
+  .nav-btn button {
     font-size: 160%;
   }
 }
@@ -309,4 +287,35 @@ li::marker {
 .title-small {
   color: rgb(255, 255, 255);
   font-weight: 333;
+}
+#boxPopup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.open-button {
+  background-color: #1c87c9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+}
+/* Hide Popup*/
+.form-popup {
+  z-index: 9;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-x: scroll;
+  margin: 0 auto;
 }
