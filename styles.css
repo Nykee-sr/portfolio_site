@@ -141,7 +141,7 @@ body {
   margin: auto;
   position: relative;
   color: rgb(95, 218, 171);
-  top: 40%;
+  top: 44%;
 }
 #header h1 {
   color: rgb(50, 249, 172);
@@ -215,14 +215,21 @@ li::marker {
   text-align: center;
   margin: auto;
   position: relative;
+  display: flex;
+  margin-top: 2em;
+  margin-left: 4em;
+  margin-right: 4em;
+  border-top: solid;
+  border-bottom: solid;
 }
 .nav-btn {
   margin-left: 1em;
 }
 .nav-btn a {
   margin-top: 1em;
+  margin-bottom: 1em;
   color: rgb(95, 218, 171);
-  font-size: 110%;
+  font-size: 115%;
   font-weight: 300;
 }
 @media (min-width: 576px) {
