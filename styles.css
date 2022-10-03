@@ -1,3 +1,6 @@
+#aaa {
+  bottom: 40%;
+}
 a {
   /* font-weight: 600;
   font-size: 120%; */
@@ -126,14 +129,10 @@ body {
   padding: 10px;
   flex: 50%;
 }
-
 .flex-item-right {
   padding: 10px;
   flex: 50%;
 }
-
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-
 .float-right {
   float: right;
 }
@@ -142,11 +141,11 @@ body {
   margin: auto;
   position: relative;
   color: rgb(95, 218, 171);
-  top: 45%;
+  top: 40%;
 }
 #header h1 {
   color: rgb(50, 249, 172);
-  font-weight: 500;
+  font-weight: 400;
 }
 #header h3 {
   color: rgb(255, 255, 255);
@@ -212,29 +211,33 @@ li::marker {
   margin-left: 4em;
   margin-right: 4em;
 }
+#nav-div {
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+.nav-btn {
+  margin-left: 1em;
+}
 .nav-btn a {
+  margin-top: 1em;
   color: rgb(95, 218, 171);
-  /* color: rgb(7, 163, 103); */
-  /* background-color: transparent;
-  border-color: transparent; */
   font-size: 110%;
   font-weight: 300;
-  position: absolute;
-  float: right;
 }
 @media (min-width: 576px) {
-  .nav-btn {
-    font-size: 115%;
+  .nav-btn a {
+    font-size: 120%;
   }
 }
 @media (min-width: 768px) {
-  .nav-btn {
-    font-size: 125%;
+  .nav-btn a {
+    font-size: 140%;
   }
 }
 @media (min-width: 992px) {
-  .nav-btn {
-    font-size: 130%;
+  .nav-btn a {
+    font-size: 160%;
   }
 }
 #nav-list {
