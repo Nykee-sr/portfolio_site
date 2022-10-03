@@ -12,6 +12,11 @@ a:link {
   margin: 2em;
   text-align: center;
   background-color: white;
+  border: solid;
+  border-width: thin;
+  border-radius: 5px;
+  border-color: rgb(43, 182, 129);
+  border-left-width: 0.5em;
 }
 #bio h2 {
   font-weight: 600;
@@ -23,14 +28,12 @@ a:link {
   font-weight: 600;
 }
 .bio-div {
-  border: solid;
-  border-width: thin;
-  border-radius: 5px;
+  border: none;
   border-left-width: 0.5em;
   border-color: rgb(95, 218, 171);
   background-color: white;
   padding: 0.7em;
-  color: rgb(177, 174, 174);
+  color: rgb(0, 0, 0);
   margin-bottom: 1em;
 
   font-size: 100%;
@@ -285,16 +288,17 @@ li::marker {
 #boxPopup {
   display: none;
   position: fixed;
+  margin: auto;
   z-index: 1;
   padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 80%;
   height: 100%;
   overflow: auto;
 }
 .open-button {
-  color: white;
+  color: rgb(17, 11, 11);
   padding: 12px 20px;
   border: none;
   border-radius: 5px;
