@@ -1,6 +1,6 @@
 a {
-  font-weight: 600;
-  font-size: 120%;
+  /* font-weight: 600;
+  font-size: 120%; */
   color: rgb(95, 218, 171);
 }
 a:hover {
@@ -13,22 +13,7 @@ a:link {
 #arrow {
   position: absolute;
   bottom: 5px;
-  padding-left: 46%;
-}
-@media (min-width: 576px) {
-  #arrow {
-    padding-left: 47%;
-  }
-}
-@media (min-width: 768px) {
-  #arrow {
-    padding-left: 48%;
-  }
-}
-@media (min-width: 992px) {
-  #arrow {
-    padding-left: 49%;
-  }
+  padding-left: 44%;
 }
 #arrow button {
   border: none;
@@ -48,6 +33,7 @@ a:link {
   display: inline-block;
   padding: 10px;
 }
+
 #bio {
   /* margin: 2em 2em -7em 2em; */
   margin: 2em;
@@ -78,22 +64,16 @@ a:link {
   text-align: left;
 }
 body {
-  /* background-color: rgb(104, 1, 1); */
-  background-color: rgb(5, 28, 48);
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  background-size: cover;
   color: rgb(255, 255, 255);
   border: solid;
   border-color: rgb(95, 218, 171);
-  font-family: Microsoft Sans Serif;
-}
-@media (min-width: 768px) {
-  body {
-    font-size: 110%;
-  }
-}
-@media (min-width: 1200px) {
-  body {
-    font-size: 125%;
-  }
 }
 .bold {
   font-weight: 700;
@@ -103,14 +83,10 @@ body {
     text-align: center;
   }
 }
-#bottom-flex {
-  display: flex;
-}
 #contact {
   margin-top: 4em;
   margin-bottom: 2em;
   color: rgb(255, 255, 255);
-  flex: 50%;
 }
 
 #contact b {
@@ -119,14 +95,9 @@ body {
 #contact p {
   margin-top: 0.75em;
   color: rgb(203, 201, 201);
-  font-size: 110%;
 }
 #contact h2 {
   margin-bottom: 1em;
-
-  font-family: Helvetica;
-  font-weight: 500;
-  font-size: 180%;
 }
 #contact-info {
 }
@@ -135,13 +106,13 @@ body {
   -webkit-transform: rotate(45deg);
 }
 /* .fadeIn {
-    opacity: 0;
-    cursor: pointer;
-    transition: 0.25s all;
-  }
-  .fadeIn:hover {
-    opacity: 1;
-  } */
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.25s all;
+}
+.fadeIn:hover {
+  opacity: 1;
+} */
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -166,13 +137,12 @@ body {
 .float-right {
   float: right;
 }
-
 #header {
   text-align: center;
-  top: 43%;
+  margin: auto;
   position: relative;
   color: rgb(95, 218, 171);
-  font-family: Helvetica;
+  top: 45%;
 }
 #header h1 {
   color: rgb(50, 249, 172);
@@ -180,17 +150,17 @@ body {
 }
 #header h3 {
   color: rgb(255, 255, 255);
-  font-weight: 600;
+  font-weight: 900;
 }
-#header h2 {
-  font-weight: lighter;
+#header h4 {
+  font-weight: 200;
   color: rgb(139, 138, 136);
-  font-size: 170%;
+  font-size: 175%;
 }
 #header b {
   /* color: black; */
   color: rgb(255, 255, 255);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -199,45 +169,6 @@ body {
   }
 }
 .link {
-}
-#links-lg {
-  flex: 50%;
-  flex-direction: row;
-}
-@media (max-width: 576px) {
-  #links-lg {
-    display: none;
-  }
-}
-@media (max-width: 992px) {
-  #links-lg {
-    /*  flex-direction: column; */
-    margin-top: 4em;
-  }
-}
-@media (min-width: 992px) {
-  #links-lg {
-    flex-direction: row;
-    margin-top: 4em;
-  }
-}
-.link-item-lg {
-  margin-bottom: 2.5em;
-  margin-left: 3em;
-}
-#links-sm {
-  display: flex;
-  flex-direction: row;
-  margin-left: 4em;
-  margin-right: 4em;
-}
-@media (min-width: 576px) {
-  #links-sm {
-    display: none;
-  }
-}
-.link-item {
-  flex: 30%;
 }
 #links {
   margin-left: 3em;
@@ -268,9 +199,6 @@ body {
     margin-right: 14em;
   }
 }
-li {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 li::marker {
   color: rgb(7, 163, 103);
   content: '-  ';
@@ -279,22 +207,44 @@ li::marker {
   font-weight: 600;
 }
 #nav {
-  color: rgb(7, 163, 103);
-  margin-bottom: 3em;
-  margin-right: 0%;
+  position: absolute;
+  bottom: 40%;
+  margin-left: 4em;
+  margin-right: 4em;
 }
-.nav-btn {
+.nav-btn a {
   color: rgb(95, 218, 171);
+  /* color: rgb(7, 163, 103); */
+  /* background-color: transparent;
+  border-color: transparent; */
+  font-size: 110%;
+  font-weight: 300;
+  position: absolute;
+  float: right;
+}
+@media (min-width: 576px) {
+  .nav-btn {
+    font-size: 115%;
+  }
+}
+@media (min-width: 768px) {
+  .nav-btn {
+    font-size: 125%;
+  }
+}
+@media (min-width: 992px) {
+  .nav-btn {
+    font-size: 130%;
+  }
+}
+#nav-list {
   background-color: transparent;
-  border-color: transparent;
-  font-size: 225%;
 }
 #opener {
   height: 100vh;
   position: relative;
-}
-p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(5, 28, 48);
+  opacity: 0.925;
 }
 #projects {
   margin: 2em;
@@ -306,16 +256,12 @@ p {
   font-weight: 200;
 }
 #projects h4 {
-  color: rgb(95, 218, 171);
-  text-align: left;
-  font-family: Helvetica;
-  font-size: 125%;
-}
-#projects p {
-  /* color: rgb(139, 138, 136); */
   color: rgb(255, 255, 255);
   text-align: left;
-  font-size: 90%;
+}
+#projects p {
+  color: rgb(139, 138, 136);
+  text-align: left;
 }
 .project-btn {
   display: flex;
@@ -328,27 +274,17 @@ p {
   margin-bottom: 1em;
   border: transparent;
   border-radius: 4px;
-  width: 70%;
+  width: 80%;
   height: 90%;
 }
 @media (max-width: 576px) {
   .project-div {
-    position: relative;
-    width: 100%;
-    height: 90%;
-    padding: 0em 0.25em 0em 0.25em;
+    width: 50%;
   }
 }
-
-@media (max-width: 992px) {
-  .project-div {
-    width: 80%;
-  }
-}
-@media (max-width: 1200px) {
-  .project-div {
-    width: 60%;
-  }
+.project-title {
+  font-weight: 600;
+  margin-bottom: 1.2em;
 }
 @media (min-width: 768px) {
   .right {
@@ -359,13 +295,7 @@ p {
   margin-top: 100%;
   padding-bottom: 25%;
 }
-.titles {
-  margin-bottom: 1.2em;
-  font-family: Helvetica;
-  font-weight: 500;
-  font-size: 180%;
-  text-align: center;
-}
+
 .title-small {
   color: rgb(255, 255, 255);
   font-weight: 333;
