@@ -133,7 +133,7 @@ body {
   margin: auto;
   position: relative;
   color: rgb(95, 218, 171);
-  top: 44%;
+  top: 42%;
 }
 @media (max-width: 576px) {
   #header {
