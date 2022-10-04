@@ -54,19 +54,18 @@ a:link {
 }
 @media (min-width: 768px) {
   .bio-div {
-    font-size: 120%;
+    font-size: 105%;
     max-width: 70%;
   }
 }
 @media (min-width: 992px) {
   .bio-div {
-    font-size: 120%;
+    font-size: 110%;
     max-width: 60%;
   }
 }
 @media (min-width: 1200px) {
   .bio-div {
-    font-size: 120%;
     max-width: 50%;
   }
 }
@@ -273,13 +272,14 @@ li::marker {
 }
 @media (min-width: 992px) {
   .nav-btn button {
-    font-size: 140%;
-    margin-left: 2em;
+    font-size: 125%;
+    margin-left: 4em;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .nav-btn button {
-    margin-left: 3.5em;
+    font-size: 130%;
+    margin-left: 6em;
   }
 }
 #nav-list {
@@ -402,14 +402,14 @@ li::marker {
   #boxPopup {
     margin-left: 10em;
     margin-right: 10em;
-    max-height: 75%;
+    /*  max-height: 75%; */
   }
 }
 @media (min-width: 1200px) {
   #boxPopup {
     margin-left: 22em;
     margin-right: 22em;
-    max-height: 75%;
+    /* max-height: 75%; */
   }
 }
 .open-button {
