@@ -13,7 +13,7 @@ window.onclick = function (event) {
   }
 };
 
-/* function openPopup2() {
+function openPopup2() {
   document.getElementById('boxPopup2').style.display = 'block';
 }
 
@@ -26,4 +26,4 @@ window.onclick = function (event) {
   if (event.target == modal) {
     closePopup2();
   }
-}; */
+};
