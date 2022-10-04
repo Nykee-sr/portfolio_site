@@ -22,6 +22,9 @@ a:link {
   color: rgb(59, 245, 174);
   font-weight: 600;
 }
+#bio p {
+  margin: 0.5em;
+}
 #bio button {
   background-color: transparent;
   border: none;
@@ -262,7 +265,7 @@ li::marker {
 }
 @media (min-width: 768px) {
   .nav-btn button {
-    font-size: 140%;
+    font-size: 120%;
     margin-top: 1em;
     margin-bottom: 1.2em;
     margin-left: 1.5em;
@@ -270,7 +273,7 @@ li::marker {
 }
 @media (min-width: 992px) {
   .nav-btn button {
-    font-size: 160%;
+    font-size: 140%;
     margin-left: 2em;
   }
 }
@@ -364,6 +367,7 @@ li::marker {
 .titles {
   color: white;
   margin-bottom: 1em;
+  text-align: center;
 }
 .title-small {
   color: rgb(255, 255, 255);
