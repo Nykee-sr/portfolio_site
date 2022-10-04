@@ -300,7 +300,6 @@ li::marker {
   max-width: 75%;
   margin-left: 1.5em;
   margin-right: 1.5em;
-  font-size: 150%;
 }
 @media (min-width: 567px) {
   #projects {
@@ -324,6 +323,7 @@ li::marker {
 #projects h3 {
   text-align: center;
   margin-bottom: 1em;
+  font-size: 150%;
 }
 #projects img {
   max-height: 80%;
