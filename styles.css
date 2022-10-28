@@ -31,49 +31,6 @@ a:link {
   float: right;
   margin-top: -0.5em;
 }
-.bio-div {
-  /*   border: none;
-  background-color: rgb(3, 16, 28);
-  height: 60vh;
-  max-width: 90%;
-  padding: 0.7em;
-  color: white;
-  margin-bottom: 1em;
-  font-size: 100%;
-  max-width: 90%; */
-  border: none;
-  background-color: rgb(3, 16, 28);
-  height: 90%;
-  max-width: 100%;
-  color: white;
-  margin-bottom: 0em;
-  width: 95%;
-  height: 95vh;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-}
-@media (max-width: 576px) {
-  .bio-div {
-    font-size: 90%;
-  }
-}
-@media (min-width: 768px) {
-  .bio-div {
-    font-size: 105%;
-    /* max-width: 70%; */
-  }
-}
-@media (min-width: 992px) {
-  .bio-div {
-    font-size: 110%;
-    /*   max-width: 60%; */
-  }
-}
-@media (min-width: 1200px) {
-  .bio-div {
-    /* max-width: 50%; */
-  }
-}
 body {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
@@ -296,8 +253,8 @@ li::marker {
   background-color: rgb(5, 28, 48);
   opacity: 0.925;
 }
-#projects {
-  /*   border: none;
+.pop-div {
+  border: none;
   background-color: rgb(3, 16, 28);
   height: 90%;
   max-width: 100%;
@@ -305,28 +262,34 @@ li::marker {
   margin-bottom: 0em;
   width: 95%;
   height: 95vh;
-  margin-left: 1.5em;
-  margin-right: 1.5em; */
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  padding: 1em;
 }
-/* @media (min-width: 567px) {
-  #projects {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
+@media (max-width: 576px) {
+  .pop-div {
+    font-size: 90%;
   }
 }
 @media (min-width: 768px) {
-  #projects {
-    margin-left: 5.5em;
-    margin-right: 5.5em;
+  .pop-div {
+    font-size: 105%;
+    /* max-width: 70%; */
   }
 }
 @media (min-width: 992px) {
-  #projects {
-    margin-left: 10em;
-    margin-right: 10em;
-    max-height: 75%;
+  .pop-div {
+    font-size: 110%;
+    /*   max-width: 60%; */
   }
-} */
+}
+@media (min-width: 1200px) {
+  .bio-div {
+    /* max-width: 50%; */
+  }
+}
+#projects {
+}
 #projects h3 {
   text-align: center;
   margin-bottom: 1em;
