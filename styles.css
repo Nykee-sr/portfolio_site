@@ -9,21 +9,18 @@ a:link {
   color: rgb(95, 218, 171);
 }
 #bio {
-  margin: 2em;
-  /* text-align: center; */
-  /*  background-color: white; */
 }
 #bio h2 {
   font-weight: 600;
   color: rgb(0, 0, 0);
-  margin-bottom: 1em;
+  /*  margin-bottom: 1em; */
 }
 #bio h5 {
   color: rgb(59, 245, 174);
   font-weight: 600;
 }
 #bio p {
-  margin: 0.5em;
+  /*   margin: 0.5em; */
 }
 #bio button {
   background-color: transparent;
@@ -35,7 +32,7 @@ a:link {
   margin-top: -0.5em;
 }
 .bio-div {
-  border: none;
+  /*   border: none;
   background-color: rgb(3, 16, 28);
   height: 60vh;
   max-width: 90%;
@@ -43,7 +40,17 @@ a:link {
   color: white;
   margin-bottom: 1em;
   font-size: 100%;
-  max-width: 90%;
+  max-width: 90%; */
+  border: none;
+  background-color: rgb(3, 16, 28);
+  height: 90%;
+  max-width: 100%;
+  color: white;
+  margin-bottom: 0em;
+  width: 95%;
+  height: 95vh;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 @media (max-width: 576px) {
   .bio-div {
@@ -53,18 +60,18 @@ a:link {
 @media (min-width: 768px) {
   .bio-div {
     font-size: 105%;
-    max-width: 70%;
+    /* max-width: 70%; */
   }
 }
 @media (min-width: 992px) {
   .bio-div {
     font-size: 110%;
-    max-width: 60%;
+    /*   max-width: 60%; */
   }
 }
 @media (min-width: 1200px) {
   .bio-div {
-    max-width: 50%;
+    /* max-width: 50%; */
   }
 }
 body {
@@ -290,17 +297,18 @@ li::marker {
   opacity: 0.925;
 }
 #projects {
-  border: none;
+  /*   border: none;
   background-color: rgb(3, 16, 28);
   height: 90%;
   max-width: 100%;
   color: white;
   margin-bottom: 0em;
-  max-width: 75%;
+  width: 95%;
+  height: 95vh;
   margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin-right: 1.5em; */
 }
-@media (min-width: 567px) {
+/* @media (min-width: 567px) {
   #projects {
     margin-left: 2.5em;
     margin-right: 2.5em;
@@ -318,35 +326,35 @@ li::marker {
     margin-right: 10em;
     max-height: 75%;
   }
-}
+} */
 #projects h3 {
   text-align: center;
   margin-bottom: 1em;
   font-size: 150%;
 }
 #projects img {
-  max-height: 80%;
-  max-width: 80%;
+  max-height: 60%;
+  max-width: 60%;
 }
-/* @media (min-width: 576px) {
+@media (min-width: 576px) {
   #projects img {
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 50%;
+    max-width: 50%;
   }
 }
 @media (min-width: 768px) {
   #projects img {
-    max-height: 65%;
-    max-width: 65%;
+    max-height: 75%;
+    max-width: 75%;
   }
 }
 @media (min-width: 992px) {
   #projects img {
-    max-height: 60%;
-    max-width: 60%;
+    max-height: 80%;
+    max-width: 80%;
   }
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   #projects img {
     max-height: 40%;
     max-width: 40%;
@@ -373,41 +381,14 @@ li::marker {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 10px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
 }
-@media (min-width: 567px) {
-  #boxPopup {
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-  }
-}
-@media (min-width: 768px) {
-  #boxPopup {
-    margin-left: 5.5em;
-    margin-right: 5.5em;
-  }
-}
-@media (min-width: 992px) {
-  #boxPopup {
-    margin-left: 10em;
-    margin-right: 10em;
-    /*  max-height: 75%; */
-  }
-}
-@media (min-width: 1200px) {
-  #boxPopup {
-    margin-left: 22em;
-    margin-right: 22em;
-    /* max-height: 75%; */
-  }
-}
+
 .open-button {
   color: white;
   padding: 12px 20px;
@@ -420,8 +401,8 @@ li::marker {
 /* Hide Popup*/
 .form-popup {
   z-index: 9;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
   overflow-x: scroll;
   margin: 0 auto;
 }
@@ -430,7 +411,7 @@ li::marker {
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 100px;
+  padding-top: 10px;
   left: 0;
   top: 0;
   width: 100%;
