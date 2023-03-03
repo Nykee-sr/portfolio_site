@@ -32,10 +32,11 @@ a:link {
   margin-top: -0.5em;
 }
 body {
+  background-color: rgb(5, 28, 48);
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
   position: relative;
   background-size: cover;
@@ -255,7 +256,7 @@ li::marker {
 }
 .pop-div {
   border: none;
-  background-color: rgb(3, 16, 28);
+  /*background-color: rgb(3, 16, 28);*/
   max-height: 150%;
   max-width: 95%;
   color: white;
@@ -288,8 +289,7 @@ li::marker {
     /* max-width: 50%; */
   }
 }
-#projects {
-}
+
 #projects h2,
 h3 {
   text-align: center;
@@ -351,13 +351,13 @@ h3 {
 #boxPopup {
   display: none;
   position: fixed;
-  z-index: 1;
+  /*z-index: 1;*/
   padding-top: 10px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 .open-button {
