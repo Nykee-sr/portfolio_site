@@ -1,5 +1,5 @@
 .zzz{
- margin-top: 45vh;
+ margin-top: 40vh;
 }
 
 a {
@@ -38,16 +38,31 @@ a:link {
 }
 body {
   background-color: rgb(5, 28, 48);
- /*  background-image: url('background.jpg');
-  background-repeat: no-repeat; */
+  background-image: url('background.jpg');
+  background-repeat: no-repeat; 
   width: 100%;
-  height: auto;
+  height: 100%; 
   display: block;
   position: relative;
-  background-size: cover;
+  background-size: 180%;
   color: rgb(255, 255, 255);
   border: solid;
   border-color: rgb(95, 218, 171);
+}
+@media (min-width: 576px){
+  body{
+  background-size: 160%;
+}
+}
+@media (min-width: 768px){
+  body{
+  background-size: 120%;
+}
+}
+@media (min-width: 992px){
+  body{
+  background-size: 100%;
+}
 }
 .bold {
   font-weight: 700;
