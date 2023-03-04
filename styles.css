@@ -274,7 +274,7 @@ li::marker {
 #nav-list {
   background-color: transparent;
 }
-#opener {
+#page {
   height: 100%;
   position: relative;
   background-color: rgb(5, 28, 48); 
@@ -315,7 +315,11 @@ li::marker {
     /* max-width: 50%; */
   }
 }
-
+@media (min-width: 992px) {
+  #projects {
+    margin-top: 38vh;
+  }
+}
 #projects h2,
 h3 {
   text-align: center;
