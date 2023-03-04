@@ -57,17 +57,17 @@ body {
 @media (min-width: 576px){
   body{
   background-size: 160%;
-}
+  }
 }
 @media (min-width: 768px){
   body{
   background-size: 120%;
-}
+  }
 }
 @media (min-width: 992px){
   body{
   background-size: 100%;
-}
+  }
 }
 .bold {
   font-weight: 700;
