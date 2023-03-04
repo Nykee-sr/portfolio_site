@@ -15,6 +15,11 @@ a:link {
 #bio {
   margin-top: 38vh;
 }
+@media (min-width: 768) {
+  #bio{
+    margin-left: 20em;
+  }
+}
 #bio h2 {
   font-weight: 600;
   color: rgb(0, 0, 0);
