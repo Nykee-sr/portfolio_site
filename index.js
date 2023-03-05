@@ -1,29 +1,11 @@
-function openPopup() {
-  document.getElementById('boxPopup').style.display = 'block';
+// A button to scroll to the About ME section
+function scrollToAboutMe() {
+  var div = document.getElementById("bio");
+  div.scrollIntoView();
 }
 
-function closePopup() {
-  document.getElementById('boxPopup').style.display = 'none';
+// A button to scroll to the Projects section
+function scrollToProjects() {
+  var div = document.getElementById("projects");
+  div.scrollIntoView();
 }
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  var modal = document.getElementById('boxPopup');
-  if (event.target == modal) {
-    closePopup();
-  }
-};
-
-function openPopup2() {
-  document.getElementById('boxPopup2').style.display = 'block';
-}
-
-function closePopup2() {
-  document.getElementById('boxPopup2').style.display = 'none';
-}
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-  var modal = document.getElementById('boxPopup2');
-  if (event.target == modal) {
-    closePopup2();
-  }
-};
